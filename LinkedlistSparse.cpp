@@ -48,12 +48,13 @@ public:
             cout << temp->row << "\t" << temp->col << "\t" << temp->value << endl;
             temp = temp->next;
         }
+        cout << "NULL" << endl;
     }
 };
 
 int main() 
 {
-    // Define the dimensions of the matrix
+
     int m = 4, n = 5;
     int matrix[4][5] = {
         {0, 0, 3, 0, 4},
